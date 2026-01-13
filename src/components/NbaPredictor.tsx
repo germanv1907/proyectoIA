@@ -89,7 +89,7 @@ export function NbaPredictor() {
       
       {/* 1. FORMULARIO DE INGRESO */}
       <div className="bg-slate-900 p-6 rounded-2xl shadow-xl border border-slate-800">
-        <h2 className="text-2xl font-bold text-white mb-4 text-center">📝 Agrega Jugadores a tu Cartilla</h2>
+        <h2 className="text-2xl font-bold text-white mb-4 text-center">Agregar Jugadores</h2>
         <div className="flex flex-col md:flex-row gap-3">
           <input
             type="text"
@@ -111,7 +111,7 @@ export function NbaPredictor() {
             onClick={handleAddBet}
             className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-6 rounded-lg transition-transform active:scale-95"
           >
-            AGREGAR +
+            AGREGAR
           </button>
         </div>
         {errorMsg && <p className="text-red-400 text-sm mt-3 text-center animate-pulse">{errorMsg}</p>}
